@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/da80cccef4324d9c97b2bbc40fad55df/artifacts
+end_time: 1764175501824
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: da80cccef4324d9c97b2bbc40fad55df
+run_name: powerful-bear-27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764175501718
+status: 3
+tags: []
+user_id: Mostafa

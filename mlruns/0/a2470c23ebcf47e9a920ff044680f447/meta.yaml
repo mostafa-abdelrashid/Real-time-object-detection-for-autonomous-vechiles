@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/a2470c23ebcf47e9a920ff044680f447/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a2470c23ebcf47e9a920ff044680f447
+run_name: vaunted-goose-405
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764170815127
+status: 1
+tags: []
+user_id: Mostafa

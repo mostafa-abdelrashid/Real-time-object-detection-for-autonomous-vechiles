@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/8676a0a04e55433ab6ff8da2e3419afd/artifacts
+end_time: 1764172706988
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8676a0a04e55433ab6ff8da2e3419afd
+run_name: tasteful-gnu-397
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764172706936
+status: 3
+tags: []
+user_id: Mostafa

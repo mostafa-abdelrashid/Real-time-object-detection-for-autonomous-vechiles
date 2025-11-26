@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/7ff2302457f54f729840df175bb39b9c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ff2302457f54f729840df175bb39b9c
+run_name: silent-worm-128
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764175628464
+status: 1
+tags: []
+user_id: Mostafa

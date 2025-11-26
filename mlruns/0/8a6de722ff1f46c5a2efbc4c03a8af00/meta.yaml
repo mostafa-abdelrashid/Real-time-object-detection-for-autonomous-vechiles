@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/8a6de722ff1f46c5a2efbc4c03a8af00/artifacts
+end_time: 1764170398863
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8a6de722ff1f46c5a2efbc4c03a8af00
+run_name: bald-steed-960
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764170398736
+status: 3
+tags: []
+user_id: Mostafa

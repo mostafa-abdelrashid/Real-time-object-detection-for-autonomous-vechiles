@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/e469d0476444402d95f4f2e4c0915bbf/artifacts
+end_time: 1764171861504
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e469d0476444402d95f4f2e4c0915bbf
+run_name: popular-frog-721
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764171861405
+status: 3
+tags: []
+user_id: Mostafa

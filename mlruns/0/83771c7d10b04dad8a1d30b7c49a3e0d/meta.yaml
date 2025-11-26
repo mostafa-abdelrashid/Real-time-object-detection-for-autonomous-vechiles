@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/83771c7d10b04dad8a1d30b7c49a3e0d/artifacts
+end_time: 1764170809543
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 83771c7d10b04dad8a1d30b7c49a3e0d
+run_name: image_detection
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764170809476
+status: 4
+tags: []
+user_id: Mostafa
