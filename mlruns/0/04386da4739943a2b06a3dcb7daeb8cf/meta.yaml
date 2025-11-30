@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/04386da4739943a2b06a3dcb7daeb8cf/artifacts
+end_time: 1764505558232
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 04386da4739943a2b06a3dcb7daeb8cf
+run_name: loud-shrike-572
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764505558090
+status: 3
+tags: []
+user_id: Mostafa

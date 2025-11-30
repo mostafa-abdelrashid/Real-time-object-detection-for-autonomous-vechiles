@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/6bef3e69e8b74c989437f456e93fd299/artifacts
+end_time: 1764501029656
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bef3e69e8b74c989437f456e93fd299
+run_name: capable-doe-289
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764501029432
+status: 3
+tags: []
+user_id: Mostafa

@@ -256,12 +256,6 @@ st.sidebar.markdown("""
 - Inference times
 - Processing performance
 
-### 🖼️ Supported Image Formats:
-- ✅ JPG, JPEG (3 channels)
-- ✅ PNG (4 channels with transparency)
-- ✅ BMP, TIFF
-- ✅ WebP
-- ✅ Grayscale images
 """)
 
 # Footer

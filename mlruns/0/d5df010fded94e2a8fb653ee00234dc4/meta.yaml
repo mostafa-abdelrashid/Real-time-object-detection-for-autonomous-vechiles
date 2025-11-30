@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/d5df010fded94e2a8fb653ee00234dc4/artifacts
+end_time: 1764501034943
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5df010fded94e2a8fb653ee00234dc4
+run_name: bold-dove-850
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764501034897
+status: 3
+tags: []
+user_id: Mostafa
