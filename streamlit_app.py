@@ -35,21 +35,16 @@ def load_model():
 
 model = load_model()
 
-# FIXED: Universal detection function that handles ANY image format
 def run_detection_with_tracking(frame, detection_type):
     start_time = time.time()
     
-    # UNIVERSAL FIX: Handle any image format and ensure 3 channels (RGB)
     if len(frame.shape) == 3:  # Color image
-        if frame.shape[2] == 4:  # RGBA (4 channels) - PNG with transparency
-            # Remove alpha channel - convert RGBA to RGB
+        if frame.shape[2] == 4:  # RGBA (4 channels) 
             frame = cv2.cvtColor(frame, cv2.COLOR_RGBA2RGB)
         elif frame.shape[2] == 1:  # Grayscale (1 channel)
-            # Convert grayscale to RGB by duplicating channels
             frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2RGB)
         # If already 3 channels (RGB), no conversion needed
     else:  # Grayscale (2D array)
-        # Convert 2D grayscale to 3D RGB
         frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2RGB)
     
     # Ensure the frame is in the correct data type (uint8)
@@ -79,30 +74,23 @@ def run_detection_with_tracking(frame, detection_type):
 
 # FIXED: Universal image preprocessing function
 def preprocess_image(uploaded_image):
-    """Convert any image format to standard 3-channel RGB numpy array"""
+    """Convert any image format to standard RGB"""
     # Load image
     image = Image.open(uploaded_image)
-    
-    # Convert to RGB (3 channels) - handles PNG, JPG, JPEG, etc.
     if image.mode in ('RGBA', 'LA', 'P'):
         # Create a white background for transparent PNGs
         background = Image.new('RGB', image.size, (255, 255, 255))
         if image.mode == 'RGBA':
             # Paste the image onto white background
-            background.paste(image, mask=image.split()[-1])  # Use alpha channel as mask
+            background.paste(image, mask=image.split()[-1])  
             image = background
         else:
             image = image.convert('RGB')
     elif image.mode != 'RGB':
         image = image.convert('RGB')
-    
-    # Convert to numpy array
     image_np = np.array(image)
-    
-    # Final safety check - ensure 3 channels
     if len(image_np.shape) == 3 and image_np.shape[2] == 4:
-        image_np = image_np[:, :, :3]  # Remove alpha channel
-    
+        image_np = image_np[:, :, :3]  
     return image_np, image
 
 # Detection options
@@ -145,8 +133,8 @@ if option == "Webcam Live Detection":
             FRAME_WINDOW.image(annotated_frame_rgb)
             
             # Show stats
-            stats_placeholder.metric("📊 Current FPS", f"{avg_fps:.1f}")
-            stats_placeholder.metric("🎯 Detections", f"{avg_detections:.1f}")
+            stats_placeholder.metric("Current FPS", f"{avg_fps:.1f}")
+            stats_placeholder.metric("Detections", f"{avg_detections:.1f}")
             
         cap.release()
 
