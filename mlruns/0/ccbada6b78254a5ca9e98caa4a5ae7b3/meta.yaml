@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/ccbada6b78254a5ca9e98caa4a5ae7b3/artifacts
+end_time: 1767046765697
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccbada6b78254a5ca9e98caa4a5ae7b3
+run_name: video_processing
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767046700883
+status: 4
+tags: []
+user_id: Mostafa
